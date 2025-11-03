@@ -1,0 +1,16 @@
+# Deep Packet Inspection - CTF Write-up
+
+**Date:** November 2024  
+**Category:** Network Forensics  
+**Difficulty:** Easy/Medium  
+**Tools:** tshark, awk, xxd, base64
+
+## Challenge Description
+A packet capture file containing DNS traffic with hidden data exfiltrated via DNS tunneling.
+
+## Solution
+
+### Step 1: Download and Extract
+```bash
+wget 'https://barqsec.exploit3rs.ae/files/7339bce8a8b6cf311b86864814378108/challenge.zip' -O challenge.zip
+unzip challenge.zip
