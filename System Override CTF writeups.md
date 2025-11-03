@@ -1,6 +1,8 @@
 # DEEP PACKET ANALYSIS
 
-**Date:** November 2024  
+**Author:** yvngdrac
+
+**Date:** November 2025  
 **Category:** Network Forensics  
 **Difficulty:** Easy/Medium  
 **Tools:** tshark, awk, xxd, base64
