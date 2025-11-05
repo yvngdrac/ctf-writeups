@@ -8,7 +8,7 @@
 **Tools:** tshark, awk, xxd, base64
 
 ## Challenge Description
-So i got this packet capture file that im supposed to analyze deeper not just on the surface level. The challenge name "Deep Packet Inspection" was a pretty big hint that ineed to look beyond it which is a packet capture file containing DNS traffic with hidden data exfiltrated via DNS tunneling.
+So i got this packet capture file that im supposed to analyze deeper not just on the surface level. The challenge name "Deep Packet Inspection" was a pretty big hint that i need to look beyond it which is a packet capture file containing DNS traffic with hidden data exfiltrated via DNS tunneling.
 
 ## Solution
 
@@ -154,7 +154,7 @@ I saw normal queries like Google,Cloudflare,facebook...but wait, there is suspic
 
 Found DNS queries with pattern: `x091337ff-[sequence]-04-[hex_data].[domain]`
 
-Bingo! The `x091337ff` was clearly something has to be done with DNS tunelling
+Bingo! The `x091337ff` was clearly something has to be done with DNS tunelling.
 
 ### Step 4: Extract and Decode Flag
 Now for the next part which as usual my buddy Deepseek walk me through the process:
