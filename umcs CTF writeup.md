@@ -46,8 +46,7 @@ The I-DO: The Veiled Vow challenge involved a web application where users were r
 # Black Flash — Binary Exploitation Writeup
 
 **CTF:** UMCybersec CTF  
-**Category:** Binary Exploitation (Pwn)  
-**Points:** 50  
+**Category:** Binary Exploitation (Pwn)   
 **Challenge:** Black Flash  
 
 ## Overview
@@ -249,8 +248,7 @@ The key insight is that the challenge gives you **two separate inputs** — the 
 # The Winning Shot — CTF Forensics Writeup
 
 **CTF:** UMCS CTF  
-**Category:** Forensics  
-**Points:** 110  
+**Category:** Forensics    
 **Flag:** `UMCS{k1n3t1c_3n3rgy_r3c0v3r3d_fr0m_c0r3_dump}`
 
 ## Overview
